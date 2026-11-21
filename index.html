@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de escenografía, grafismo, modelado y dibujo técnico para proyectos audiovisuales.">
+  <title>Escenografía · Portafolio</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body id="inicio">
+  <header class="cabecera marco">
+    <a class="marca" href="#inicio">Portafolio</a>
+    <nav aria-label="Proyectos">
+      <a href="#amor-peligroso">Amor peligroso</a>
+      <a href="#castle">Castle</a>
+    </nav>
+  </header>
+  <main class="marco">
+    <div class="portada">
+      <div>
+        <h1>Escenografía</h1>
+        <p>Diseño de sets, grafismo y dibujo técnico</p>
+      </div>
+      <span class="trazo" aria-hidden="true"><i></i><i></i><i></i></span>
+    </div>
+      <section class="proyecto" id="amor-peligroso" aria-labelledby="amor-peligroso-nombre">
+        <div class="galeria">
+          <a class="obra" href="./assets/amor-peligroso-01.webp"><img src="./assets/amor-peligroso-01.webp" width="1045" height="782" alt="Vista nocturna del concesionario RVC Motor" fetchpriority="high"></a>
+          <a class="obra" href="./assets/amor-peligroso-02.webp"><img src="./assets/amor-peligroso-02.webp" width="1322" height="527" alt="Estudio de construcción del logotipo"></a>
+          <a class="obra" href="./assets/amor-peligroso-03.webp"><img src="./assets/amor-peligroso-03.webp" width="1182" height="705" alt="Vistas del interior del concesionario"></a>
+          <a class="obra" href="./assets/amor-peligroso-04.webp"><img src="./assets/amor-peligroso-04.webp" width="852" height="600" alt="Alzado acotado de la fachada"></a>
+          <a class="obra" href="./assets/amor-peligroso-05.webp"><img src="./assets/amor-peligroso-05.webp" width="411" height="227" alt="Vista del diseño del mostrador"></a>
+          <a class="obra" href="./assets/amor-peligroso-06.webp"><img src="./assets/amor-peligroso-06.webp" width="1330" height="682" alt="Vistas del set con iluminación roja y azul"></a>
+          <a class="obra" href="./assets/amor-peligroso-07.webp"><img src="./assets/amor-peligroso-07.webp" width="1326" height="737" alt="Plano de la barandilla"></a>
+          <a class="obra" href="./assets/amor-peligroso-08.webp"><img src="./assets/amor-peligroso-08.webp" width="982" height="666" alt="Variantes de la identidad gráfica de RVC Motor"></a>
+        </div>
+        <footer class="ficha">
+          <h2 id="amor-peligroso-nombre">Amor peligroso</h2>
+        </footer>
+      </section>
+      <section class="proyecto" id="castle" aria-labelledby="castle-nombre">
+        <div class="galeria">
+          <a class="obra" href="./assets/castle-01.webp"><img src="./assets/castle-01.webp" width="1130" height="595" alt="Perspectiva del puesto de feria de Oktoberfest"></a>
+          <a class="obra" href="./assets/castle-02.webp"><img src="./assets/castle-02.webp" width="2200" height="1422" alt="Elementos pintados del cartel Bierwagen"></a>
+          <a class="obra" href="./assets/castle-03.webp"><img src="./assets/castle-03.webp" width="1136" height="703" alt="Modelo del carro de barriles"></a>
+          <a class="obra" href="./assets/castle-04.webp"><img src="./assets/castle-04.webp" width="1136" height="703" alt="Dibujo técnico de la estructura del puesto"></a>
+          <a class="obra" href="./assets/castle-05.webp"><img src="./assets/castle-05.webp" width="1136" height="703" alt="Axonometría de la pérgola Meinhardt"></a>
+          <a class="obra" href="./assets/castle-06.webp"><img src="./assets/castle-06.webp" width="1136" height="703" alt="Diseño de una jardinera con bancos"></a>
+          <a class="obra" href="./assets/castle-07.webp"><img src="./assets/castle-07.webp" width="2200" height="1553" alt="Modelo de la estructura de la pérgola"></a>
+          <a class="obra" href="./assets/castle-08.webp"><img src="./assets/castle-08.webp" width="2200" height="913" alt="Detalle del cartel Bierwagen"></a>
+        </div>
+        <footer class="ficha">
+          <h2 id="castle-nombre">Castle</h2>
+        </footer>
+      </section>
+  </main>
+  <footer class="pie marco">
+    <a href="#inicio">Volver arriba</a>
+    <button type="button" id="imprimir" hidden>Guardar como PDF</button>
+  </footer>
+  <dialog class="detalle" aria-label="Vista ampliada">
+    <button type="button" class="cerrar" autofocus>Cerrar <span aria-hidden="true">×</span></button>
+    <figure>
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+  </dialog>
+</body>
+</html>
